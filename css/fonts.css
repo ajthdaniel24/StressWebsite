@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: Limelight;
+    src: url('../fonts/Limelight/Limelight-Regular.ttf');
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url('../fonts/Sigmar_One/SigmarOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: Stint;
+    src: url('../fonts/Stint_Ultra_Condensed/StintUltraCondensed-Regular.ttf');
+}

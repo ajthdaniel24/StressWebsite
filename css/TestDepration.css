@@ -1,0 +1,501 @@
+@import url('../css/fonts.css');
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --Abel: 'Abel', cursive;
+    --Limelight: 'Limelight', cursive;
+    --Sigmar: 'Sigmar', cursive;
+    --Stint: 'Stint', cursive;
+    
+    
+    --light-green: #38F50E;
+    --light-blue: #0794F6;
+    
+    --grass: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+/* global clasess  */
+a{
+    text-decoration: none;
+    color: var(--light-green);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+button{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    /*font-family: */;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+p{
+    color: var(--light-blue);
+}
+
+.nav{
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 95%;
+    cursor: pointer;
+    
+}
+
+.nav .nav-menu .menu{
+    left: 0;
+    width: 20%;
+}
+
+.nav .toggle-collapse .toggle-icon i{
+    font-size: 1.4rem;
+    color: var(--light-green);
+}
+
+.collapse{
+    height: 17rem;
+    
+}
+
+
+.nav .toggle-collapse .toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.6rem 0;
+    
+}
+
+.nav .nav-items{
+    list-style-type: none;
+    font-family: var(--Stint);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--light-blue);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: white;
+}
+
+.nav .nav-brand a{
+    font-size: 1.8rem;
+    font-family: var(--Limelight);
+    padding: 1rem;
+    display: block;
+}
+
+ /*........*/
+.section-1 {
+    padding: 15vmin 1vmin;
+  }
+
+  .section-1 .row .letdep .pray img {
+    opacity: 0.8;
+    width: 40%;
+    height: 20%;
+    border-radius: 1.5em;
+    position: relative;
+    left: 40px;
+  }
+
+  .section-1 .row .letdep:last-child {
+    position: relative;
+  }
+
+  .section-1 .row .letdep .panel {
+    position: absolute;
+    top: -90vmin;
+    left: 80vmin;
+    right: 19vmin;
+    text-align: left;
+    font-family: var(--Rubik);
+  }
+
+  .section-1 h1{
+    text-align: center;
+    size: 40px;
+}
+
+.section-1 .letdep .panel .con p{      
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+
+}
+
+.btn-2{
+  color: black;
+  border: 2px solid #000;
+  position:relative;
+  left: 35%;
+  top: 0rem
+}
+
+.btn-2:hover{
+  background-color: rgba(245, 225, 229, 0.719);
+}
+
+.section-1 .row{
+  position: relative;
+  left:6%;
+}
+.section-1 .container{
+  margin-bottom: 10rem;
+}
+
+
+/*---------------------------------------------------- */
+
+/*nav bar*/
+
+.nav{
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 95%;
+    cursor: pointer;
+    
+}
+
+.nav .toggle-collapse .toggle-icon i{
+    font-size: 1.4rem;
+    color: var(--light-green);
+}
+
+.collapse{
+    height: 17rem;
+    
+}
+
+
+.nav .toggle-collapse .toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.6rem 0;
+    
+}
+
+.nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--light-blue);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: white;
+}
+
+.nav .nav-brand a{
+    font-size: 1.8rem;
+    padding: 1rem;
+    display: block;
+}
+
+/*----------------------------------*/
+
+/*Main content*/
+
+/*Site Title*/
+
+main .site-title{
+    background: url(../assets//TEST1.png);
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding: 10rem;
+    text-align: center;
+    color: white;
+}
+
+main .site-title .one h3{
+    margin-top: -5rem;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+main .site-title .two h1{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+main .site-title .three h2{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.btn-1{
+    color: black;
+    border: 2px solid #000;
+    position:absolute;
+    left: 43.5%;
+    top:78%;
+}
+
+.btn-1:hover{
+    background-color: rgb(231, 117, 82);
+}
+
+
+
+/*Lets relax page site tittle */
+
+main .LR-title {
+    background: url(file:///C:/xampp/htdocs/clearmind/assets/letsrelaxback.svg), none;
+    background-size: cover;
+    width: 100px;
+    height: 100px; 
+    justify-content: center;
+}
+
+main .LR-title .LR-background{
+    padding: 10rem;
+    text-align: center;
+    color: rgba(48, 235, 241, 0.904);
+}
+
+main .LR-title h1,h3{
+    margin: .3rem;
+}
+
+
+/*----------------------------------*/
+
+/*Blog*/
+
+main .blog{
+    /*background: url(../assets/back3.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+main .blog .blog-post{
+    padding-top: 1.5rem;
+}
+
+main .blog-post .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+main .content .blog-title{
+    padding: 2rem 0;
+}
+
+main .content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--grass);
+    margin: .5rem;
+}
+
+main .container h2{
+    padding: 2rem;
+    text-align: center;
+    color: var(--light-green);
+}
+/*-------------------------------------*/
+
+/* site content */
+
+main .site-content{
+    
+}
+
+main .post-content{
+    width: 100%;
+}
+
+main .site-content .post-content > .post-img, .post-title{
+    padding: 10rem 5rem;
+    position: relative;
+}
+
+main .site-content .post-content > .post-img > div{
+    overflow: hidden;
+}
+
+main .site-content .post-content > .post-img .img{
+    width: 60%;
+    height:300px;
+    display: flex;
+    border-radius: 50px;
+    transition: all 1s ease;
+}
+
+main .site-content .post-content > .post-img .img:hover{
+    transform: scale(1.1);
+}
+
+main .post-content .post-title a{
+    font-size: 1.8rem;
+}
+
+main .site-content .post-content .post-title .post-btn{
+    border-radius: 2;
+    
+    background-color: var(--light-green);
+}
+/*------------------------*/
+
+/*-----------------main content-------------------*/
+
+/*----------------footer-------------*/
+ 
+footer.footer{
+    height: 100%;
+    background: #3fde44;
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+} 
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem
+}
+
+footer.footer .container .about-us h2{
+    color: white;
+}
+
+footer.footer .container .about-us p{
+    color: white;
+}
+
+footer.footer .container .newsletter p{
+    color: white;
+}
+
+footer.footer .container .follow p{
+    color: white;
+}
+
+footer.footer .newsletter .form-element{
+    background: #3fde44;
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 0.8rem;
+    width: 75%;
+}
+    
+footer.footer .newsletter .form-element .email-btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    height: 5px;
+    background: var(--light-blue);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+        
+}
+
+    
+
+
+footer.footer .follow div i{
+    padding: 0.4rem;
+}
+
+footer.footer .rights{
+    justify-content: center;
+}
+
+/*------------footer-------------------*/
